@@ -206,11 +206,11 @@ class Model:
 
     def predict(self, data):
         data = np.array(data)
-        return np.sum(self.arr * data)
+        return np.sum(self.arr * data)-0.999
 
 
 def load_model():
-    param = np.load("models/model.npy")
+    param = np.load("models/model-final.npy")
     clf = Model(param)
     return clf
 
