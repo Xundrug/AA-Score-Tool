@@ -1,0 +1,266 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  1
+  W09IXVtDSDJdW0NIMl1bTitdKFtDSDNdKShbQ0gzXSlbQ0gzXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL3B4bC9sb2NhbGhvbWUxL1N0dWR5L3BsaXBfcmRraXQvZGF0YS8ycmVnL3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWsubWFlJywgJy1vbWFlJywgJ3ByZXB3aXphcmQtZXBpay1vdXQubWFlJywgJy1tcycsICcxMCcsICctcGgnLCAnNy4wJywgJy1waHQnLCAnMi4wJywgJy1jZycsICcwLjMnLCAnMC4zJywgJy1yZXRhaW5faScsICctbWV0YWxfYmluZGluZyc= 
+  2
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+   -0.0000 
+  0
+  1
+  1
+   -0.0000 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  s_m_color_rgb
+  s_m_atom_name
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 16.808000 1.778000 5.637000 1 A 104 "CHT " " C4 " 6 0 3 E6E6E6  "C4385"  1 7.51 4 4473 4385 1 "CCD match"  <> <>
+  2 3 16.421000 2.061000 7.097000 1 A 104 "CHT " " C5 " 6 0 3 E6E6E6  "C4386"  1 6.35 4 4474 4386 1 "CCD match"  <> <>
+  3 3 15.357000 3.339000 8.764000 1 A 104 "CHT " " C6 " 6 0 3 E6E6E6  "C4387"  1 5.88 4 4475 4387 1 "CCD match"  <> <>
+  4 3 16.625000 4.531000 7.176000 1 A 104 "CHT " " C7 " 6 0 3 E6E6E6  "C4388"  1 4.71 4 4476 4388 1 "CCD match"  <> <>
+  5 3 14.539000 3.544000 6.526000 1 A 104 "CHT " " C8 " 6 0 3 E6E6E6  "C4389"  1 5.57 4 4477 4389 1 "CCD match"  <> <>
+  6 16 17.965000 2.542000 5.274000 1 A 70 "CHT " " O6 " 8 0 3 FF2E2E  "O4390"  1 8.52 4 4478 4390 1 "CCD match"   -2.140    0.950 
+  7 32 15.747000 3.356000 7.343000 1 A 38 "CHT " " N1 " 7 1 3 2E2EFF  "N4391"  1 6.17 4 4479 4391 1 "CCD match"  <> <>
+  8 41 17.031753 0.707605 5.517884 1 A 21 "CHT " " H41" 1 0 3 FFFFFF  ""  <> <> <> <> 8674 <> <> <> <>
+  9 41 15.972919 2.053752 4.976242 1 A 21 "CHT " " H42" 1 0 3 FFFFFF  ""  <> <> <> <> 8675 <> <> <> <>
+  10 41 15.729972 1.281698 7.450794 1 A 21 "CHT " " H51" 1 0 3 FFFFFF  ""  <> <> <> <> 8676 <> <> <> <>
+  11 41 17.325616 2.060501 7.722835 1 A 21 "CHT " " H52" 1 0 3 FFFFFF  ""  <> <> <> <> 8677 <> <> <> <>
+  12 41 16.251871 3.198859 9.388153 1 A 21 "CHT " " H61" 1 0 3 FFFFFF  ""  <> <> <> <> 8678 <> <> <> <>
+  13 41 14.653222 2.512379 8.941184 1 A 21 "CHT " " H62" 1 0 3 FFFFFF  ""  <> <> <> <> 8679 <> <> <> <>
+  14 41 14.874810 4.293073 9.023303 1 A 21 "CHT " " H63" 1 0 3 FFFFFF  ""  <> <> <> <> 8680 <> <> <> <>
+  15 41 17.532424 4.399981 7.783795 1 A 21 "CHT " " H71" 1 0 3 FFFFFF  ""  <> <> <> <> 8681 <> <> <> <>
+  16 41 16.092264 5.436187 7.502847 1 A 21 "CHT " " H72" 1 0 3 FFFFFF  ""  <> <> <> <> 8682 <> <> <> <>
+  17 41 16.904484 4.632291 6.116930 1 A 21 "CHT " " H73" 1 0 3 FFFFFF  ""  <> <> <> <> 8683 <> <> <> <>
+  18 41 13.877598 2.672960 6.643627 1 A 21 "CHT " " H81" 1 0 3 FFFFFF  ""  <> <> <> <> 8684 <> <> <> <>
+  19 41 14.823991 3.647889 5.468651 1 A 21 "CHT " " H82" 1 0 3 FFFFFF  ""  <> <> <> <> 8685 <> <> <> <>
+  20 41 14.011771 4.451784 6.854568 1 A 21 "CHT " " H83" 1 0 3 FFFFFF  ""  <> <> <> <> 8686 <> <> <> <>
+  21 42 18.381294 2.461091 4.259035 1 A 21 "CHT " " HO6" 1 0 3 FFFFFF  ""  <> <> <> <> 8687 <> <>  12.655    0.595 
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 6 1 3 3
+  3 1 8 1 3 3
+  4 1 9 1 3 3
+  5 2 7 1 3 3
+  6 2 10 1 3 3
+  7 2 11 1 3 3
+  8 3 7 1 3 3
+  9 3 12 1 3 3
+  10 3 13 1 3 3
+  11 3 14 1 3 3
+  12 4 7 1 3 3
+  13 4 15 1 3 3
+  14 4 16 1 3 3
+  15 4 17 1 3 3
+  16 5 7 1 3 3
+  17 5 18 1 3 3
+  18 5 19 1 3 3
+  19 5 20 1 3 3
+  20 6 21 1 3 3
+  :::
+ } 
+} 
+
+f_m_ct { 
+ s_m_title
+ i_ppw_hetnum
+ s_epik_input
+ s_epik_cmdline
+ i_lp_orig_ion_str
+ r_lp_tautomer_probability
+ r_epik_Ionization_Penalty
+ r_epik_Ionization_Penalty_Charging
+ r_epik_Ionization_Penalty_Neutral
+ r_epik_State_Penalty
+ r_epik_Charging_Adjusted_Penalty
+ i_epik_Tot_Q
+ i_epik_Tot_abs_Q
+ r_epik_Metal_State_Penalty
+ b_epik_Metal_Only
+ i_m_ct_format
+ :::
+ "" 
+  2
+  W09IXVtDSDJdW0NIMl1bTitdKFtDSDNdKShbQ0gzXSlbQ0gzXQ== 
+  J2VwaWtfYXBwJywgJy1pbWFlJywgJy9ob21lL3B4bC9sb2NhbGhvbWUxL1N0dWR5L3BsaXBfcmRraXQvZGF0YS8ycmVnL3ByZXB3aXphcmRfd29ya2Rpci9wcmVwd2l6YXJkLWVwaWsubWFlJywgJy1vbWFlJywgJ3ByZXB3aXphcmQtZXBpay1vdXQubWFlJywgJy1tcycsICcxMCcsICctcGgnLCAnNy4wJywgJy1waHQnLCAnMi4wJywgJy1jZycsICcwLjMnLCAnMC4zJywgJy1yZXRhaW5faScsICctbWV0YWxfYmluZGluZyc= 
+  2
+  1
+    0.0000 
+    0.0000 
+    0.0000 
+   -0.0000 
+  0
+  1
+  1
+   -0.0000 
+  0
+  2
+ m_depend[8] { 
+  # First column is dependency index #
+  i_m_depend_dependency
+  s_m_depend_property
+  :::
+  1 10 i_lp_orig_ion_str 
+  2 10 r_lp_tautomer_probability 
+  3 10 r_epik_Ionization_Penalty 
+  4 10 r_epik_Ionization_Penalty_Charging 
+  5 10 r_epik_Ionization_Penalty_Neutral 
+  6 10 r_epik_State_Penalty 
+  7 10 r_epik_Charging_Adjusted_Penalty 
+  8 10 i_epik_Tot_Q 
+  :::
+ } 
+ m_atom[21] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  s_m_chain_name
+  i_m_color
+  s_m_pdb_residue_name
+  s_m_pdb_atom_name
+  i_m_atomic_number
+  i_m_formal_charge
+  i_m_representation
+  s_m_color_rgb
+  s_m_atom_name
+  r_m_pdb_occupancy
+  r_m_pdb_tfactor
+  i_m_pdb_convert_problem
+  i_pdb_PDB_serial
+  i_ppw_anum
+  i_ppw_het
+  s_ppw_CCD_assignment_status
+  r_epik_H2O_pKa
+  r_epik_H2O_pKa_uncertainty
+  :::
+  1 3 2.133000 -48.174000 15.449000 1 B 104 "CHT " " C4 " 6 0 3 E6E6E6  "C4392"  1 8.47 4 4480 4392 2 "CCD match"  <> <>
+  2 3 1.842000 -48.355000 13.948000 1 B 104 "CHT " " C5 " 6 0 3 E6E6E6  "C4393"  1 6.83 4 4481 4393 2 "CCD match"  <> <>
+  3 3 0.894000 -49.591000 12.147000 1 B 104 "CHT " " C6 " 6 0 3 E6E6E6  "C4394"  1 5.23 4 4482 4394 2 "CCD match"  <> <>
+  4 3 2.133000 -50.803000 13.751000 1 B 104 "CHT " " C7 " 6 0 3 E6E6E6  "C4395"  1 5.95 4 4483 4395 2 "CCD match"  <> <>
+  5 3 -0.027000 -49.933000 14.309000 1 B 104 "CHT " " C8 " 6 0 3 E6E6E6  "C4396"  1 6.4 4 4484 4396 2 "CCD match"  <> <>
+  6 16 3.283000 -48.951000 15.828000 1 B 70 "CHT " " O6 " 8 0 3 FF2E2E  "O4397"  1 9.79 4 4485 4397 2 "CCD match"   -2.140    0.950 
+  7 32 1.219000 -49.657000 13.582000 1 B 38 "CHT " " N1 " 7 1 3 2E2EFF  "N4398"  1 6.87 4 4486 4398 2 "CCD match"  <> <>
+  8 41 2.330092 -47.112341 15.658847 1 B 21 "CHT " " H41" 1 0 3 FFFFFF  ""  <> <> <> <> 8688 <> <> <> <>
+  9 41 1.263421 -48.508083 16.033996 1 B 21 "CHT " " H42" 1 0 3 FFFFFF  ""  <> <> <> <> 8689 <> <> <> <>
+  10 41 1.150722 -47.568470 13.611095 1 B 21 "CHT " " H51" 1 0 3 FFFFFF  ""  <> <> <> <> 8690 <> <> <> <>
+  11 41 2.782032 -48.284400 13.381117 1 B 21 "CHT " " H52" 1 0 3 FFFFFF  ""  <> <> <> <> 8691 <> <> <> <>
+  12 41 1.809350 -49.384839 11.572864 1 B 21 "CHT " " H61" 1 0 3 FFFFFF  ""  <> <> <> <> 8692 <> <> <> <>
+  13 41 0.163292 -48.787358 11.973145 1 B 21 "CHT " " H62" 1 0 3 FFFFFF  ""  <> <> <> <> 8693 <> <> <> <>
+  14 41 0.466641 -50.551513 11.823304 1 B 21 "CHT " " H63" 1 0 3 FFFFFF  ""  <> <> <> <> 8694 <> <> <> <>
+  15 41 3.070567 -50.607087 13.210088 1 B 21 "CHT " " H71" 1 0 3 FFFFFF  ""  <> <> <> <> 8695 <> <> <> <>
+  16 41 1.660494 -51.711253 13.348739 1 B 21 "CHT " " H72" 1 0 3 FFFFFF  ""  <> <> <> <> 8696 <> <> <> <>
+  17 41 2.349267 -50.944929 14.820151 1 B 21 "CHT " " H73" 1 0 3 FFFFFF  ""  <> <> <> <> 8697 <> <> <> <>
+  18 41 -0.716675 -49.084380 14.189870 1 B 21 "CHT " " H81" 1 0 3 FFFFFF  ""  <> <> <> <> 8698 <> <> <> <>
+  19 41 0.195664 -50.077495 15.376493 1 B 21 "CHT " " H82" 1 0 3 FFFFFF  ""  <> <> <> <> 8699 <> <> <> <>
+  20 41 -0.493109 -50.843819 13.905081 1 B 21 "CHT " " H83" 1 0 3 FFFFFF  ""  <> <> <> <> 8700 <> <> <> <>
+  21 42 3.635072 -48.940006 16.870077 1 B 21 "CHT " " HO6" 1 0 3 FFFFFF  ""  <> <> <> <> 8701 <> <>  12.655    0.595 
+  :::
+ } 
+ m_bond[20] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  i_m_from_rep
+  i_m_to_rep
+  :::
+  1 1 2 1 3 3
+  2 1 6 1 3 3
+  3 1 8 1 3 3
+  4 1 9 1 3 3
+  5 2 7 1 3 3
+  6 2 10 1 3 3
+  7 2 11 1 3 3
+  8 3 7 1 3 3
+  9 3 12 1 3 3
+  10 3 13 1 3 3
+  11 3 14 1 3 3
+  12 4 7 1 3 3
+  13 4 15 1 3 3
+  14 4 16 1 3 3
+  15 4 17 1 3 3
+  16 5 7 1 3 3
+  17 5 18 1 3 3
+  18 5 19 1 3 3
+  19 5 20 1 3 3
+  20 6 21 1 3 3
+  :::
+ } 
+} 
+

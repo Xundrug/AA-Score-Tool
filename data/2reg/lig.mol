@@ -1,0 +1,165 @@
+2REG - preprocessed_ligand1
+                    3D
+ Schrodinger Suite 2020-3.
+ 21 20  0  0  1  0            999 V2000
+   16.8080    1.7780    5.6370 C   0  0  0  0  0  0
+   16.4210    2.0610    7.0970 C   0  0  0  0  0  0
+   15.3570    3.3390    8.7640 C   0  0  0  0  0  0
+   16.6250    4.5310    7.1760 C   0  0  0  0  0  0
+   14.5390    3.5440    6.5260 C   0  0  0  0  0  0
+   17.9650    2.5420    5.2740 O   0  0  0  0  0  0
+   15.7470    3.3560    7.3430 N   0  3  0  0  0  0
+   15.9775    2.0441    4.9832 H   0  0  0  0  0  0
+   17.0221    0.7159    5.5175 H   0  0  0  0  0  0
+   17.3096    1.9928    7.7246 H   0  0  0  0  0  0
+   15.7909    1.2516    7.4657 H   0  0  0  0  0  0
+   14.8512    4.2717    9.0137 H   0  0  0  0  0  0
+   14.6840    2.5012    8.9466 H   0  0  0  0  0  0
+   16.2468    3.2315    9.3843 H   0  0  0  0  0  0
+   16.0574    5.4404    7.3735 H   0  0  0  0  0  0
+   17.4586    4.4646    7.8752 H   0  0  0  0  0  0
+   17.0082    4.5568    6.1559 H   0  0  0  0  0  0
+   14.0926    4.5119    6.7539 H   0  0  0  0  0  0
+   14.8048    3.5068    5.4696 H   0  0  0  0  0  0
+   13.8228    2.7528    6.7480 H   0  0  0  0  0  0
+   18.1974    2.3575    4.3610 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1  8  1  0  0  0
+  1  9  1  0  0  0
+  2  7  1  0  0  0
+  2 10  1  0  0  0
+  2 11  1  0  0  0
+  3  7  1  0  0  0
+  3 12  1  0  0  0
+  3 13  1  0  0  0
+  3 14  1  0  0  0
+  4  7  1  0  0  0
+  4 15  1  0  0  0
+  4 16  1  0  0  0
+  4 17  1  0  0  0
+  5  7  1  0  0  0
+  5 18  1  0  0  0
+  5 19  1  0  0  0
+  5 20  1  0  0  0
+  6 21  1  0  0  0
+M  CHG  1   7   1
+M  END
+> <s_m_entry_id>
+10
+
+> <s_m_entry_name>
+2reg.1_ligand1
+
+> <s_pdb_PDB_TITLE>
+ABC-TRANSPORTER CHOLINE BINDING PROTEIN IN COMPLEX WITH CHOLINE
+
+> <s_pdb_PDB_ID>
+2REG
+
+> <r_pdb_PDB_CRYST1_a>
+30.796
+
+> <r_pdb_PDB_CRYST1_b>
+185.414
+
+> <r_pdb_PDB_CRYST1_c>
+42.529
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+91.83
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+P 1 21 1
+
+> <i_pdb_PDB_CRYST1_z>
+4
+
+> <s_pdb_PDB_CLASSIFICATION>
+TRANSPORT PROTEIN
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+26-SEP-07
+
+> <s_pdb_PDB_format_version>
+3.30
+
+> <r_pdb_PDB_R>
+0.18
+
+> <r_pdb_PDB_Rfree>
+0.222
+
+> <r_pdb_PDB_RESOLUTION>
+1.9
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_PH>
+4.6
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Chains>
+B
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+/home/pxl/localhome3/Study/PLFilter/plip_rdkit/data/2reg
+
+> <s_m_Source_File>
+2reg.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+8
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2020-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <b_ppw_deleted_far_waters>
+1
+
+> <s_ppw_het_states>
+eJytkDsPgjAUhf/KTVeLtjzbsjm5GkfDQJBJHg51MIT/LoXKUWY7ffnanpt7BiaZoet04kglnETByWEKzIAKqFfUAig5ycKxj1uSpP8zC/dcYsrn0zrrV6it0BCTCcR+ihtGTqEDdrGlrelRd2VjX2a+FnSvyubQ9k1Op+DYdzeq+mdnDcmczoZ2krkkFq496BALRcAYiKI0itIoSquvHlzckuR38CKDiGahIOKtSLYihfhjD+Mbc5N54Q==
+
+> <s_m_subgroup_title>
+2REG - preprocessed_split_by_structure
+
+> <s_m_subgroupid>
+2REG - preprocessed_split_by_structure
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$

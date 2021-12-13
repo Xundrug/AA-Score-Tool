@@ -1,0 +1,25 @@
+
+Assigned bond orders to the workspace, while skipping residues with existing double & triple bonds
+  No bond orders were changed
+
+Added hydrogens to the Workspace structure
+
+Treated metals in the Workspace structure
+  Created disulfide bonds: []
+
+Found 2 het groups
+  HET 1 atoms: [4385, 4386, 4387, 4388, 4389, 4390, 4391]
+  HET 2 atoms: [4392, 4393, 4394, 4395, 4396, 4397, 4398]
+
+Deleted waters farther than 5.0 angstroms from hets
+
+Found 2 het groups
+  HET 1 atoms: [4385, 4386, 4387, 4388, 4389, 4390, 4391]
+  HET 2 atoms: [4392, 4393, 4394, 4395, 4396, 4397, 4398]
+
+Found 4 waters
+
+Generated ionization/tautomeric states for all het groups
+Epik job ({job_id}) incorporated.
+Optimize H-bonds job has completed
+Restrained minimization job has completed
