@@ -18,7 +18,7 @@ This tool only support command line. First, you should prepare the protein-ligan
 ```
 get_pocket.py or get_pocket_by_schrodinger.py 
 ```
-The purpose of this code is to predict binding affinity by AA-Score:
+The purpose of `AA_Score.py` is to predict binding affinity by AA-Score:
 ```
 AA_Score.py
 usage: AA_Score.py [-h] [--Rec REC] [--Lig LIG] [--Out OUT]
@@ -31,7 +31,7 @@ optional arguments:
   --Lig LIG   the file of ligands, support mol2, mol, sdf, PDB
   --Out OUT   the output file for recording scores
 ```
-The purpose of this code is to calculate interaction fingerprint by AA-Score:
+The purpose of `AA_fp.py` is to calculate interaction fingerprint by AA-Score:
 ```
 AA_Fp.py
 usage: AA_Fp.py [-h] [--Rec REC] [--Lig LIG] [--Out OUT]
