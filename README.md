@@ -44,7 +44,7 @@ optional arguments:
   --Lig LIG   the file of ligands, support mol2, mol, sdf, PDB
   --Out OUT   the output file for recording interaction fingerprint
 ```
-The purpose of this code is to visualize different interactions by AA-Score, including hydrogen bond, pi-pi stacking, pi-cation, salt bridge:
+The purpose of the code is to visualize different interactions by AA-Score, including hydrogen bond, pi-pi stacking, pi-cation, salt bridge:
 ```
 show_interactions.ipynb
 ```
