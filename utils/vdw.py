@@ -5,11 +5,6 @@ from rdkit.Chem import AllChem
 atom_radius = {"N": 1.8, "O": 1.7, "S": 2.0, "P": 2.1, "F": 1.5, "Cl": 1.8,
                "Br": 2.0, "I": 2.2, "C": 1.9, "H": 0.0, "Zn": 0.5, "B": 1.8}
 
-atom_radius = {"N": 1.8, "O": 1.7, "S": 2.0, "P": 2.1, "F": 1.5, "Cl": 1.8, "K":0.5,
-               "Br": 2.0, "I": 2.2, "C": 1.9, "H": 0.0, "Zn": 0.5, "B": 1.8, "Sr":0.5, "Hg":0.5,
-               "Si": 1.8, "As": 1.8, "Se": 1.8, "Se": 1.8, "Mg": 0.5, "Cu": 0.5, "Co":0.5,
-               "Fe": 0.5, "Ca": 0.5, "Mn": 0.5 , "Na": 0.5, "Cd":0.5, "Ni":0.5, "Li":0.5}
-
 
 def get_mol_coords(mol):
     conf = mol.GetConformers()[0]
@@ -42,7 +37,7 @@ def get_d0_matrix(atoms, mol_lig):
     d0_matrix = np.zeros((len(residue_symbols), len(ligand_symbols)), dtype=np.float)
     for idxp, elemp in enumerate(residue_symbols):
         for idxl, eleml in enumerate(ligand_symbols):
-            d0 = atom_radius.get(elemp, 0.5) + atom_radius[eleml]
+            d0 = atom_radius.get(elemp, 0.0) + atom_radius.get(eleml, 0.0)
             d0_matrix[idxp, idxl] = d0
     return d0_matrix
 
