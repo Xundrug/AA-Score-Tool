@@ -320,13 +320,13 @@ def func():
         calc_batch(mol_prot, mol_ligs, output_file, clf)
     elif lig_format == "mol2":
         mol_lig = Chem.MolFromMol2File(ligand_file, removeHs=False)
-        calc_single(ol_prot, mol_lig, output_file, clf)
+        calc_single(mol_prot, mol_lig, output_file, clf)
     elif lig_format == "mol":
         mol_lig = Chem.MolFromMolFile(ligand_file, removeHs=False)
-        calc_single(ol_prot, mol_lig, output_file, clf)
+        calc_single(mol_prot, mol_lig, output_file, clf)
     elif lig_format == "pdb":
         mol_lig = Chem.MolFromPDBFile(ligand_file, removeHs=False)
-        calc_single(ol_prot, mol_lig, output_file, clf)
+        calc_single(mol_prot, mol_lig, output_file, clf)
     return
 
 if __name__ == "__main__":

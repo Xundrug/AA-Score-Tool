@@ -7,16 +7,25 @@ The protein-ligand scoring function plays an important role in computer-aided dr
 * Openbabel >= 3.0
 * RDKit >= 2019 (http://www.rdkit.org/docs/Install.html)
 * numpy 1.18.1
+* scipy
 * pandas 0.25.3
+* py3dmol
+* schrodinger (optional)
+* biopandas
+
+You also can create the python environment by conda configure file:
+```
+conda env create -f environment.yaml 
+```
 
 ## Usage
 This is a example pdb for model prediction, including protein and ligand file:
 ```
 data/5otc
 ```
-This tool only support command line. First, you should prepare the protein-ligand complex file, then use the scripts to select binding pocket from protein by referring to the atom position of the ligand. 
+This tool only support command line. First, you should prepare the protein-ligand complex file, including add hydrogens, remove water and assign bond order, etc. Then, you should use the scripts to select binding pocket from protein by referring to the atom position of the ligand. 
 ```
-get_pocket.py or get_pocket_by_schrodinger.py 
+get_pocket_biopandas.py or get_pocket_by_schrodinger.py 
 ```
 The purpose of `AA_Score.py` is to predict binding affinity by AA-Score:
 ```
@@ -43,6 +52,11 @@ optional arguments:
   --Rec REC   the file of binding pocket, only support PDB format
   --Lig LIG   the file of ligands, support mol2, mol, sdf, PDB
   --Out OUT   the output file for recording interaction fingerprint
+```
+If you want to print the result in the screen, please ignore the parameter `--out`:
+```
+python AA_Score.py --Rec data/2reg/pocket.pdb --Lig data/2reg/Lig.sdf
+2REG - minimized_ligand1 -5.790370939906665
 ```
 The purpose of the code is to visualize different interactions by AA-Score, including hydrogen bond, pi-pi stacking, pi-cation, salt bridge:
 ```

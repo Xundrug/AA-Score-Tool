@@ -1,0 +1,201 @@
+2REG - minimized_ligand1
+                    3D
+ Schrodinger Suite 2020-3.
+ 21 20  0  0  1  0            999 V2000
+   16.9650    1.7224    5.6667 C   0  0  0  0  0  0
+   16.5499    2.0063    7.1236 C   0  0  0  0  0  0
+   15.3589    3.3294    8.8674 C   0  0  0  0  0  0
+   16.8309    4.5638    7.2888 C   0  0  0  0  0  0
+   14.6411    3.5945    6.4894 C   0  0  0  0  0  0
+   17.9670    2.6002    5.2149 O   0  0  0  0  0  0
+   15.8591    3.3704    7.4083 N   0  3  0  0  0  0
+   16.1177    1.7121    4.9816 H   0  0  0  0  0  0
+   17.3821    0.7163    5.6191 H   0  0  0  0  0  0
+   17.4072    1.9716    7.7853 H   0  0  0  0  0  0
+   15.8440    1.2564    7.4632 H   0  0  0  0  0  0
+   14.9091    4.2873    9.1041 H   0  0  0  0  0  0
+   14.6190    2.5346    8.9353 H   0  0  0  0  0  0
+   16.2097    3.1333    9.5195 H   0  0  0  0  0  0
+   16.3206    5.4561    7.6504 H   0  0  0  0  0  0
+   17.7063    4.3415    7.8996 H   0  0  0  0  0  0
+   17.0962    4.6912    6.2428 H   0  0  0  0  0  0
+   14.1985    4.5553    6.7410 H   0  0  0  0  0  0
+   14.9999    3.5958    5.4665 H   0  0  0  0  0  0
+   13.9369    2.7834    6.6547 H   0  0  0  0  0  0
+   18.4693    2.1445    4.5243 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1  8  1  0  0  0
+  1  9  1  0  0  0
+  2  7  1  0  0  0
+  2 10  1  0  0  0
+  2 11  1  0  0  0
+  3  7  1  0  0  0
+  3 12  1  0  0  0
+  3 13  1  0  0  0
+  3 14  1  0  0  0
+  4  7  1  0  0  0
+  4 15  1  0  0  0
+  4 16  1  0  0  0
+  4 17  1  0  0  0
+  5  7  1  0  0  0
+  5 18  1  0  0  0
+  5 19  1  0  0  0
+  5 20  1  0  0  0
+  6 21  1  0  0  0
+M  CHG  1   7   1
+M  END
+> <s_m_entry_id>
+6
+
+> <s_m_entry_name>
+2reg.1_ligand1
+
+> <s_pdb_PDB_TITLE>
+ABC-TRANSPORTER CHOLINE BINDING PROTEIN IN COMPLEX WITH CHOLINE
+
+> <s_pdb_PDB_ID>
+2REG
+
+> <r_pdb_PDB_CRYST1_a>
+30.796
+
+> <r_pdb_PDB_CRYST1_b>
+185.414
+
+> <r_pdb_PDB_CRYST1_c>
+42.529
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+91.83
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+P 1 21 1
+
+> <i_pdb_PDB_CRYST1_z>
+4
+
+> <s_pdb_PDB_CLASSIFICATION>
+TRANSPORT PROTEIN
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+26-SEP-07
+
+> <s_pdb_PDB_format_version>
+3.30
+
+> <r_pdb_PDB_R>
+0.18
+
+> <r_pdb_PDB_Rfree>
+0.222
+
+> <r_pdb_PDB_RESOLUTION>
+1.9
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_PH>
+4.6
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Chains>
+B
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+/home/pxl/localhome3/Study/scoringFunctionPaper/Reversion-AA-Score/AA-Score-Tool/data/2reg
+
+> <s_m_Source_File>
+2reg.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+3
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2020-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <s_ppw_het_states>
+eJytkDsPgjAUhf/KTVeLtjzbsjm5GkfDQJBJHg51MIT/LoXKUWY7ffnanpt7BiaZoet04kglnETByWEKzIAKqFfUAig5ycKxj1uSpP8zC/dcYsrn0zrrV6it0BCTCcR+ihtGTqEDdrGlrelRd2VjX2a+FnSvyubQ9k1Op+DYdzeq+mdnDcmczoZ2krkkFq496BALRcAYiKI0itIoSquvHlzckuR38CKDiGahIOKtSLYihfhjD+Mbc5N54Q==
+
+> <b_ppw_ran_protassign>
+1
+
+> <r_i_Potential_Energy-OPLS3e>
+-4129.06012533052
+
+> <r_i_RMS_Derivative-OPLS3e>
+0.158553168727595
+
+> <r_i_Max_Derivative-OPLS3e>
+2.68169169000293
+
+> <r_i_Stretch_Energy-OPLS3e>
+257.907309420511
+
+> <r_i_Bend_Energy-OPLS3e>
+1167.73051522668
+
+> <r_i_LJ-14_Energy-OPLS3e>
+2522.93135879368
+
+> <r_i_El-14_Energy-OPLS3e>
+1275.69213209763
+
+> <r_i_Van_der_Waals_Energy-OPLS3e>
+-5843.12905530521
+
+> <r_i_Electrostatic_Energy-OPLS3e>
+-4323.05460815586
+
+> <r_i_Dihedral_Energy-OPLS3e>
+738.317263251198
+
+> <r_i_target_temperature>
+298
+
+> <b_ppw_ran_impref>
+1
+
+> <s_m_subgroup_title>
+2REG - minimized_split_by_structure
+
+> <s_m_subgroupid>
+2REG - minimized_split_by_structure
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$

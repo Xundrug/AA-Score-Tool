@@ -1,0 +1,30 @@
+name: AAScore
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/rdkit
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
+  - openbabel
+  - conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - defaults
+dependencies:
+  - biopandas=0.2.5=pyh9f0ad1d_0
+  - cython=0.29.21=py36he6710b0_0
+  - numpy=1.18.1=py36h4f9e942_0
+  - numpy-base=1.18.1=py36hde5b4d6_1
+  - openbabel=2.4.1=py36_6
+  - openssl=1.1.1l=h7f8727e_0
+  - packaging=21.0=pyhd3eb1b0_0
+  - pandas=0.25.3=py36he6710b0_0
+  - pandoc=2.12=h06a4308_0
+  - pandocfilters=1.4.3=py36h06a4308_1
+  - pip=21.0.1=py36h06a4308_0
+  - py3dmol=0.8.0=py_0
+  - python=3.6.9=h265db76_0
+  - python-dateutil=2.8.2=pyhd3eb1b0_0
+  - python-leveldb=0.201=py36he6710b0_0
+  - python_abi=3.6=1_cp36m
+  - rdkit=2020.03.2.0=py36hc20afe1_1
+  - scipy=1.4.1=py36h0b6359f_0
+  - six=1.16.0=pyhd3eb1b0_0
+prefix: /localhome/anaconda3/envs/AAScore

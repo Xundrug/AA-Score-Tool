@@ -15,7 +15,7 @@ def deal_pro_and_lig(pro_file, lig_file, pdb_id):
     ppdb.read_pdb(pro_file)
     pro = ppdb.df['ATOM']
 
-    pro_cut, pros_near_lig = select_cut_residue(pro, lig, cut=6.0)
+    pro_cut, pros_near_lig = select_cut_residue(pro, lig, cut=5.5)
     
     ppdb.df['ATOM'] = pro_cut
     
@@ -108,9 +108,9 @@ class GetPocket:
 
 
 if __name__=="__main__":
-    ligand_file = "../data/1a3b/Lig.sdf"
-    protein_file = "../data/1a3b/Rec.pdb"
-    pdb_id = "1a3b"
+    ligand_file = "../data/2reg/Lig.sdf"
+    protein_file = "../data/2reg/Rec.pdb"
+    pdb_id = "2reg"
     get_pocket = GetPocket(ligand_file, protein_file, pdb_id)
 
 
