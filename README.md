@@ -40,25 +40,20 @@ optional arguments:
   --Lig LIG   the file of ligands, support mol2, mol, sdf, PDB
   --Out OUT   the output file for recording scores
 ```
-The purpose of `AA_fp.py` is to calculate interaction fingerprint by AA-Score:
-```
-AA_Fp.py
-usage: AA_Fp.py [-h] [--Rec REC] [--Lig LIG] [--Out OUT]
-
-parse AA Score prediction parameters
-
-optional arguments:
-  -h, --help  show this help message and exit
-  --Rec REC   the file of binding pocket, only support PDB format
-  --Lig LIG   the file of ligands, support mol2, mol, sdf, PDB
-  --Out OUT   the output file for recording interaction fingerprint
-```
 If you want to print the result in the screen, please ignore the parameter `--out`:
 ```
 python AA_Score.py --Rec data/2reg/pocket.pdb --Lig data/2reg/Lig.sdf
 2REG - minimized_ligand1 -5.790370939906665
 ```
+
+The purpose of `AA_fp.ipynb` is to calculate interaction fingerprint by AA-Score.
+
+The purpose of the code is to calculate the binding affinity by AA-Score using jupyter.
+```
+AA_Score.ipynb
+```
 The purpose of the code is to visualize different interactions by AA-Score, including hydrogen bond, pi-pi stacking, pi-cation, salt bridge:
 ```
 show_interactions.ipynb
 ```
+
