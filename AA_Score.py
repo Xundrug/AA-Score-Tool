@@ -300,6 +300,8 @@ def calc_single(mol_prot, mol_lig, output_file, clf):
     return
 
 def calc_single(mol_prot, mol_lig, output_file, clf):
+    if not mol_lig:
+        raise RuntimeError("RDKit parse the file error")
     name = mol_lig.GetProp("_Name")
     score = calc_score(mol_lig, mol_prot, clf)
 
