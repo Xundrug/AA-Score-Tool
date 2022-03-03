@@ -48,7 +48,7 @@ python AA_Score.py --Rec data/2reg/pocket.pdb --Lig data/2reg/Lig.sdf
 
 The purpose of `AA_fp.ipynb` is to calculate interaction fingerprint by AA-Score.
 
-The purpose of the code is to calculate the binding affinity by AA-Score using jupyter.
+The purpose of the code is to calculate the binding affinity by AA-Score using jupyter:
 ```
 AA_Score.ipynb
 ```
