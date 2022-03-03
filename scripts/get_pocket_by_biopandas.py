@@ -108,9 +108,10 @@ class GetPocket:
 
 
 if __name__=="__main__":
-    ligand_file = "../data/2reg/Lig.sdf"
-    protein_file = "../data/2reg/Rec.pdb"
-    pdb_id = "2reg"
+    
+    ligand_file = "../data/5vsd/Lig.sdf"
+    protein_file = "../data/5vsd/Rec.pdb"
+    pdb_id = "5vsd"
     get_pocket = GetPocket(ligand_file, protein_file, pdb_id)
 
 
