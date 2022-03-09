@@ -25,7 +25,7 @@ data/5otc
 ```
 This tool only support command line. First, you should prepare the protein-ligand complex file, including add hydrogens, remove water and assign bond order, etc. Then, you should use the scripts to select binding pocket from protein by referring to the atom position of the ligand. 
 ```
-get_pocket_biopandas.py or get_pocket_by_schrodinger.py 
+get_pocket_by_biopandas.py or get_pocket_by_schrodinger.py 
 ```
 The purpose of `AA_Score.py` is to predict binding affinity by AA-Score:
 ```
