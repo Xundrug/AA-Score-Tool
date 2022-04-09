@@ -108,10 +108,10 @@ class GetPocket:
 
 
 if __name__=="__main__":
-    
-    ligand_file = "../data/5vsd/Lig.sdf"
-    protein_file = "../data/5vsd/Rec.pdb"
-    pdb_id = "5vsd"
+    import sys
+    protein_file=sys.argv[1]
+    ligand_file=sys.argv[2]
+    pdb_id=sys.argv[3]
     get_pocket = GetPocket(ligand_file, protein_file, pdb_id)
 
 
